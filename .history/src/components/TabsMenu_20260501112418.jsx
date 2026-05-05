@@ -1,0 +1,18 @@
+import React from 'react'
+
+const TabsMenu = () => {
+    const Tabs=[
+        { name: "Vanilla", type: "classic"},
+        { name: "Chocolate", type: "classic"},
+        { name: "Blueberry", type: "exotic"},
+        { name: "Mango", type: "vegan"}
+    ]
+    
+  return (
+    <div>
+        <div className='flex justify-center items-center'>TabsMenu</div>
+    </div>
+  )
+}
+
+export default TabsMenu

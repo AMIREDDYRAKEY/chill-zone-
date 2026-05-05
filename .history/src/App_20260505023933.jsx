@@ -1,0 +1,21 @@
+import { Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar'
+import Aboutus from "./components/Aboutus";
+import Gallery from "./components/Gallery";
+import Home from "./pages/Home";
+
+const App = () => {
+  return (
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<Aboutus />} />
+        <Route path="/Gallery" element={<Gallery />} />
+      </Routes>
+    </>
+  );
+};
+
+export default App;

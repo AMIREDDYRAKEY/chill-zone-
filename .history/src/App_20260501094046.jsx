@@ -1,0 +1,16 @@
+ import React from 'react'
+ 
+ import  Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Marquee from './components/Marquee'
+ const App = () => {
+   return (
+    <div className='linear-gradient(160deg, #09071a 0%, #0e0b22 60%, #120920 100%)'>
+      <Navbar/>
+      <Hero/>
+      <Marquee/>
+      </div>
+   )
+ }
+ 
+ export default App
