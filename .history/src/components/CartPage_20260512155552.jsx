@@ -143,7 +143,7 @@ const CartPage = () => {
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
 
                 <button
-                  onClick={() => navigate("/availableitems")}
+                  onClick={() => navigate("/avaiableitems")}
                   className="flex-1 py-3 rounded-xl
                   border border-[#2563eb]
                   text-[#2563eb]

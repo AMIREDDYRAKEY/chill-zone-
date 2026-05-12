@@ -74,7 +74,7 @@ const OrderSuccessPage = () => {
       <div className="text-center mt-8">
 
         <button
-          onClick={() => navigate("/availableitems")}
+          onClick={() => navigate("/availbleitems")}
           className="bg-[#2563eb] hover:bg-[#1d4ed8]
           px-6 py-3 rounded-xl font-medium"
         >
