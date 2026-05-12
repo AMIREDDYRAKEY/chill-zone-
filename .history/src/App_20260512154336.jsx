@@ -48,7 +48,7 @@ const App = () => {
   const [cart, setCart] = useState([]);
   return (
     <div className="bg-[#0a1727]" >
-
+ 
 
 
       <Routes>
@@ -56,14 +56,14 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route
-          path="/availableitems"
-          element={<AvailableItems cart={cart} setCart={setCart} />}
-        />
+  path="/availableitems"
+  element={<AvailableItems cart={cart} setCart={setCart} />}
+/>
 
-        <Route
-          path="/cart"
-          element={<CartPage cart={cart} setCart={setCart} />}
-        />
+<Route
+  path="/cart"
+  element={<CartPage cart={cart} setCart={setCart} />}
+/>
         <Route path="/order-success" element={<OrderSuccessPage />} />
       </Routes>
 

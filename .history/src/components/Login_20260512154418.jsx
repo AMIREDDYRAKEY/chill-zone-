@@ -69,7 +69,7 @@ const Login = () => {
           <button
             type="submit"
             className="mt-3 py-3 rounded-xl bg-gradient-to-r from-cyan-400 to-purple-500 text-white font-semibold hover:scale-[1.02] transition-all duration-300"
-            onClick={()=>navigate("/availableitems")}
+            onClick={()=>navigate("/avilableitems")}
           >
             Login
           </button>
